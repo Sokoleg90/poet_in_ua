@@ -6,6 +6,9 @@
                     <span class="text-white font-extrabold">POET IN UKRAINE</span>
                 </div>
                 <div class="flex justify-around">
+                    <router-link :to="{name: 'personal.index'}">
+                    <button class="mx-4 bg-gray-800 text-white hover:bg-white hover:text-black rounded-3xl">Особистий кабінет</button>
+                    </router-link>
                     <button class="mx-4 bg-gray-800 text-white hover:bg-white hover:text-black rounded-3xl">Реєстрація</button>
                     <button class="mx-4 bg-gray-800 text-white hover:bg-white hover:text-black rounded-3xl">Увійти</button>
                 </div>
@@ -43,7 +46,14 @@
             </div>
 <!--            /Banner-->
         </header>
+<!--        Main-->
+        <div class="bg-gray-100 h-screen">
         <router-view></router-view>
+        </div>
+<!--        /Main-->
+        <footer class="h-12 bg-gray-700 text-white">
+            <p>© PoetInUkraine 2023. All rights reserved.</p>
+        </footer>
     </div>
 </template>
 
