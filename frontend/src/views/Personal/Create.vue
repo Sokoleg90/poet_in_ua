@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="flex flex-col items-center">
         <MyTitle title="Напиши свого вірша"></MyTitle>
         <MyInput title="Назва вірша"></MyInput>
         <MyTextarea title="Вірш"></MyTextarea>

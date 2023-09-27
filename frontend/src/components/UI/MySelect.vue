@@ -1,6 +1,6 @@
 <template>
     <div class="mb-2 w-1/2 flex flex-col">
-        <span class="ml-5 text-white">{{ title }}</span>
+        <span class="ml-5">{{ title }}</span>
         <select>
             <option>
                 Про кохання

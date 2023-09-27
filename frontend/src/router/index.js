@@ -8,7 +8,7 @@ const routes = [
         redirect: 'main',
         children: [
             {
-                path: '/main',
+                path: '/',
                 name: 'main',
                 component: () => import('../views/Main.vue'),
             },
@@ -50,7 +50,7 @@ const routes = [
     {
         path: '/:pathMatch(.*)*',
         name: 'notFound',
-        component: () => import('../components/MainLayout.vue')
+        component: () => import('../views/NotFound.vue')
     }
 ]
 
