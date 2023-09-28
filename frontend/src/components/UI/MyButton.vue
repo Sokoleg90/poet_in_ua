@@ -1,5 +1,5 @@
 <template>
-    <button class="mt-3 max-w-full bg-gray-800 text-white hover:bg-gray-500 hover:text-black" type="submit">{{title}}</button>
+    <button class="mt-3 max-w-full bg-gray-800 text-white hover:bg-gray-200 hover:text-black" type="submit">{{title}}</button>
 </template>
 
 <script setup>

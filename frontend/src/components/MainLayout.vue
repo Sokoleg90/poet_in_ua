@@ -9,10 +9,10 @@
                     <router-link :to="{name: 'personal.index'}">
                     <span class="lg:text-2xl mx-7 sm:text-sm text-white hover:text-rose-700 font-mono">Особистий кабінет</span>
                     </router-link>
-                    <router-link :to="{name: 'personal.index'}">
+                    <router-link :to="{name: 'registration'}">
                     <span class="lg:text-2xl mx-7 sm:text-sm text-white hover:text-rose-700 font-mono">Реєстрація</span>
                     </router-link>
-                    <router-link :to="{name: 'personal.index'}">
+                    <router-link :to="{name: 'login'}">
                     <span class="lg:text-2xl mx-7 sm:text-sm text-white hover:text-rose-700 font-mono">Увійти</span>
                     </router-link>
 
@@ -52,7 +52,7 @@
 <!--            /Banner-->
         </header>
 <!--        Main-->
-        <div class="bg-slate-200 h-screen">
+        <div class="bg-zinc-700 h-screen">
         <router-view></router-view>
         </div>
 <!--        /Main-->

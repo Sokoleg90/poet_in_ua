@@ -48,6 +48,24 @@ const routes = [
         ]
     },
     {
+        path: '/',
+        name: 'AuthLayout',
+        redirect: 'login',
+        component: () => import('../components/AuthLayout.vue'),
+        children: [
+            {
+                path: '/login',
+                name: 'login',
+                component: () => import('../views/Auth/Login.vue')
+            },
+            {
+                path: '/registration',
+                name: 'registration',
+                component: () => import('../views/Auth/Registration.vue')
+            },
+        ]
+    },
+    {
         path: '/:pathMatch(.*)*',
         name: 'notFound',
         component: () => import('../views/NotFound.vue')
